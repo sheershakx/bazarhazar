@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Bazarhazar</string>
+    <string-array name="Province">
+        <item>Province 1</item>
+        <item>Province 2</item>
+        <item>Bagmati Pradesh</item>
+        <item>Gandaki Pradesh</item>
+        <item>Province 5</item>
+        <item>Karnali Pradesh</item>
+        <item>Sudurpashchim Pradesh</item>
+    </string-array>
+
+
+    <string-array name="district1">
+        <item>Bhojpur</item>
+        <item>Dhankuta</item>
+        <item>Illam</item>
+        <item>Jhapa</item>
+        <item>Khotang</item>
+        <item>Morang</item>
+        <item>Okhaldhunga</item>
+        <item>Panchthar</item>
+        <item>Sankhuwasabha</item>
+        <item>Solukhumbu</item>
+        <item>Sunsari</item>
+        <item>Taplejung</item>
+        <item>Terhathum</item>
+        <item>Udayapur</item>
+
+    </string-array>
+
+    <string-array name="district2">
+        <item>Saptari</item>
+        <item>Siraha</item>
+        <item>Dhanusa</item>
+        <item>Mahottari</item>
+        <item>Sarlahi</item>
+        <item>Bara</item>
+        <item>Parsa</item>
+        <item>Rautahat</item>
+
+    </string-array>
+
+    <string-array name="district3">
+        <item>Sindhuli</item>
+        <item>Ramechhap</item>
+        <item>Dolakha</item>
+        <item>Bhaktapur</item>
+        <item>Dhading</item>
+        <item>Kathmandu</item>
+        <item>Kavrepalanchok</item>
+        <item>Lalitpur</item>
+        <item>Nuwakot</item>
+        <item>Rasuwa</item>
+        <item>Sindhupalchok</item>
+        <item>Chitwan</item>
+        <item>Makwanpur</item>
+
+
+    </string-array>
+
+    <string-array name="district4">
+        <item>Baglung</item>
+        <item>Gorkha</item>
+        <item>Kaski</item>
+        <item>Lamjung</item>
+        <item>Manang</item>
+        <item>Mustang</item>
+        <item>Myagdi</item>
+        <item>Nawalpur</item>
+        <item>Parbat</item>
+        <item>Syangja</item>
+        <item>Tanahun</item>
+
+    </string-array>
+
+    <string-array name="district5">
+        <item>Kapilvastu</item>
+        <item>Parasi</item>
+        <item>Rupandehi</item>
+        <item>Arghakhanchi</item>
+        <item>Gulmi</item>
+        <item>Palpa</item>
+        <item>Dang</item>
+        <item>Pyuthan</item>
+        <item>Rolpa</item>
+        <item>Eastern Rukum</item>
+        <item>Banke</item>
+        <item>Bardiya</item>
+
+
+    </string-array>
+
+    <string-array name="district6">
+        <item>Western Rukum</item>
+        <item>Salyan</item>
+        <item>Dolpa</item>
+        <item>Humla</item>
+        <item>Jumla</item>
+        <item>Kalikot</item>
+        <item>Mugu</item>
+        <item>Surkhet</item>
+        <item>Dailekh</item>
+        <item>Jajarkot</item>
+
+
+    </string-array>
+
+    <string-array name="district7">
+        <item>Kailali</item>
+        <item>Achham</item>
+        <item>Doti</item>
+        <item>Bajhang</item>
+        <item>Bajura</item>
+        <item>Kanchanpur</item>
+        <item>Dadeldhura</item>
+        <item>Baitadi</item>
+        <item>Darchula</item>
+
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

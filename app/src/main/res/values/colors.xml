@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#223AC2</color>
+    <color name="colorPrimaryDark">#1D48E0</color>
+    <color name="colorAccent">#378AAF</color>
+    <color name="background">#DFF3F3</color>
+    <color name="button">#C02E24</color>
+    <color name="buttonlogin">#13AC22</color>
+    <color name="splash">#2A422A</color>
+
+
+    <color name="color1">#F8B195</color>
+    <color name="color2">#F67280</color>
+    <color name="color3">#C06C84</color>
+    <color name="color4">#6C5B7B</color>
+    <color name="color5">#355C7D</color>
+   <!-- <color name="colorPrimary">#223AC2</color>
+    <color name="colorPrimaryDark">#1D48E0</color>    378AAF     DFF3F3  -->
+</resources>
