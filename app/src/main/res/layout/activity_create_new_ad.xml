@@ -21,6 +21,7 @@
 
 
             <Spinner
+                android:id="@+id/categ_create"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -36,7 +37,7 @@
 
 
                 <com.google.android.material.textfield.TextInputEditText
-
+android:id="@+id/service_create"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="10"
@@ -59,7 +60,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="10"
-
+android:id="@+id/desc_create"
                     android:hint="Description"
                     android:textColorHint="#FFFFFF"
                     android:textSize="20sp" />
@@ -78,7 +79,26 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="10"
+                    android:id="@+id/address_create"
                     android:hint="Address"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                android:padding="0dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:id="@+id/contact_create"
+                    android:hint="Contact number"
                     android:textColorHint="#FFFFFF"
                     android:textSize="20sp" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -97,6 +117,7 @@
                     android:layout_height="match_parent"
                     android:ems="10"
                     android:hint="Remarks"
+                    android:id="@+id/remark_create"
                     android:textColorHint="#FFFFFF"
                     android:textSize="20sp" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -114,6 +135,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/openinghour_create"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hint="8:00 AM" />
@@ -126,11 +148,13 @@
                     android:textStyle="bold|italic" />
 
                 <EditText
+                    android:id="@+id/closinghour_create"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hint="7:00 PM" />
 
                 <CheckBox
+                    android:id="@+id/_24hr_create"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
@@ -141,6 +165,7 @@
             </LinearLayout>
 
             <Button
+                android:id="@+id/uploadimage_create"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -150,6 +175,7 @@
                 android:textColor="@color/color4" />
 
             <Button
+                android:id="@+id/save_create"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

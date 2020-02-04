@@ -4,14 +4,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="10">
+    android:weightSum="10"
+    tools:context=".ads_detail_admin">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@color/color4"
         android:layout_weight="3"
+
         android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageview_approve"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@color/color1" />
 
 
     </LinearLayout>
@@ -34,6 +41,57 @@
                 android:layout_margin="5dp"
                 android:orientation="vertical"
                 android:stretchColumns="1">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="Ad ID:"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:id="@+id/adid_req"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:hint="Your username here"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="Date:"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/date_req"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:hint="Your date here"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+                </TableRow>
 
                 <TableRow>
 
@@ -68,7 +126,7 @@
                         android:layout_column="0"
                         android:layout_marginLeft="10dp"
                         android:layout_marginBottom="15dp"
-                        android:text="Ad type:"
+                        android:text="Category:"
                         android:textColor="#000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -85,6 +143,29 @@
                         android:textSize="18sp" />
 
 
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="Services:"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/serv_req"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:hint="Your desc here"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
                 </TableRow>
 
                 <TableRow>
@@ -143,23 +224,25 @@
                         android:layout_column="0"
                         android:layout_marginLeft="10dp"
                         android:layout_marginBottom="15dp"
-                        android:text="Date:"
+                        android:text="Remarks :"
                         android:textColor="#000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/date_req"
+                        android:id="@+id/remarks_req"
                         android:layout_height="wrap_content"
                         android:layout_column="1"
                         android:layout_marginLeft="5dp"
                         android:layout_marginBottom="5dp"
                         android:layout_weight="1"
-                        android:hint="Your date here"
+                        android:hint="Your address here"
                         android:textColor="#000"
                         android:textSize="18sp" />
 
                 </TableRow>
+
+
                 <TableRow>
 
                     <TextView

@@ -98,7 +98,27 @@
 
 
                     </TableRow>
+                    <TableRow>
 
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_margin="10dp"
+                            android:text="Services: "
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/serv_detail"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:hint="your desc no here: "
+                            android:textSize="20sp" />
+
+
+                    </TableRow>
                     <TableRow>
 
                         <TextView
@@ -133,6 +153,48 @@
 
                         <TextView
                             android:id="@+id/proname_detail"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:hint="your address here: "
+                            android:textSize="20sp" />
+
+
+                    </TableRow>
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_margin="10dp"
+                            android:text="Opening hours : "
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/hours_detail"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:hint="your address here: "
+                            android:textSize="20sp" />
+
+
+                    </TableRow>
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_margin="10dp"
+                            android:text="Contact : "
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/contact_detail"
                             android:layout_height="wrap_content"
                             android:layout_column="1"
                             android:layout_margin="10dp"
