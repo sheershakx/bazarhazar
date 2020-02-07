@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.squareup.picasso.Picasso;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -144,7 +146,7 @@ public class ads_detail extends AppCompatActivity {
             hours.setText(Hours);
 
             if (Remarks != null) remarks.setText(Remarks);
-            //  imageView.setText();
+            Picasso.get().load(Image).into(imageView);
 
         }
     }

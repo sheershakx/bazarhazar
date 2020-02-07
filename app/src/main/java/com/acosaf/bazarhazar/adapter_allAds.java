@@ -12,6 +12,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.Picasso;
+
 import java.net.IDN;
 import java.util.ArrayList;
 
@@ -22,7 +24,7 @@ public class adapter_allAds extends RecyclerView.Adapter<adapter_allAds.ViewHold
     private ArrayList<String> categ;
 
 
-    public adapter_allAds(ArrayList<String> id,ArrayList<String> image,ArrayList<String> categ)
+    public adapter_allAds(ArrayList<String> id,ArrayList<String> categ,ArrayList<String> image)
     {
         this.id = id;
         this.image = image;
@@ -57,6 +59,7 @@ public class adapter_allAds extends RecyclerView.Adapter<adapter_allAds.ViewHold
                 context.startActivity(intent);
             }
         });
+        Picasso.get().load(Image).into(holder.imageView);
 
 
     }
