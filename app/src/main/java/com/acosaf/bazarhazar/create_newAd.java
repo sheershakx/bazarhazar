@@ -96,11 +96,11 @@ public class create_newAd extends AppCompatActivity {
 
                     if (_24checked_ == true) {
                         hours = "24 hours";
-                        new create_ad().execute(category, services, description, address_, remarks, hours, contactnum, image);
+                        new create_ad().execute(category, services, description, address_, remarks, hours, contactnum, "image");
                     } else if (_24checked_ == false) {
                         if (openhour != null && closehour != null && !TextUtils.isEmpty(openhour) && !TextUtils.isEmpty(closehour)) {
                             hours = openhour + " - " + closehour;
-                            new create_ad().execute(category, services, description, address_, remarks, hours, contactnum, image);
+                            new create_ad().execute(category, services, description, address_, remarks, hours, contactnum, "image");
                         } else
                             Toast.makeText(create_newAd.this, "Specify opening and closing hours", Toast.LENGTH_SHORT).show();
                     }

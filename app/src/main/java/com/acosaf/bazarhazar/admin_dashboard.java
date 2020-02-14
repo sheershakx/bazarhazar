@@ -25,39 +25,33 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
 
-public class user_dashboard extends AppCompatActivity {
+public class admin_dashboard extends AppCompatActivity {
     ProgressDialog progressDialog;
-    String postid, imageurl, categ;
-    ArrayList<String> POSTID = new ArrayList<>();
-    ArrayList<String> IMAGEURL = new ArrayList<>();
-    ArrayList<String> CATEG = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_user_dashboard);
+        setContentView(R.layout.activity_admin_dashboard);
 
-        new getmyads().execute();
+        new getpendingads().execute();
     }
 
-
-    public class getmyads extends AsyncTask<String, String, String> {
+    public class getpendingads extends AsyncTask<String, String, String> {
         String db_url;
 
 
         @Override
         protected void onPreExecute() {
-            progressDialog = ProgressDialog.show(user_dashboard.this, "", "Loading orders..", true);
+            progressDialog = ProgressDialog.show(admin_dashboard.this, "", "Loading ads..", true);
             db_url = "http://test.acosaf.com/bazarhazaar/get_my_ad.php";
 
         }
 
         @Override
         protected String doInBackground(String... args) {
-            String status;
-          //  status = args[0];
+            // String status;
+            //  status = args[0];
 
 
             try {

@@ -109,7 +109,7 @@ public class ads_detail extends AppCompatActivity {
                 Categ = jsonObject.getString("category");
                 Address = jsonObject.getString("address");
                 Date = jsonObject.getString("date");
-                Desc = jsonObject.getString("desc");
+                Desc = jsonObject.getString("description");
                 Proname = jsonObject.getString("proname");
                 Remarks = jsonObject.getString("remarks");
                 Services = jsonObject.getString("services");

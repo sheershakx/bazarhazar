@@ -53,7 +53,7 @@ public class allFragment extends Fragment {
         arrayList.add("cinema");
         arrayList.add("bar");
 
-
+        new getallads().execute();
 
         return view;
     }
@@ -72,7 +72,7 @@ public class allFragment extends Fragment {
 
         @Override
         protected String doInBackground(String... args) {
-            String status;
+          //  String status;
 
 
 
